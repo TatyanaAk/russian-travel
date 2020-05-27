@@ -1,1 +1,8 @@
 @import url('../place/place.css');
+
+.places {
+  flex-direction: column;
+  position: relative;
+  max-width: 984px;
+  margin: 0 auto 92px;
+}

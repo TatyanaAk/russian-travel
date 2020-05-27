@@ -1,2 +1,11 @@
 @import url('__logo/header__logo.css');
 @import url('__lang-link/header__lang-link.css');
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 52px;
+  width: 1184px;
+  margin: auto 48px;
+  margin-top: 28px;
+}
