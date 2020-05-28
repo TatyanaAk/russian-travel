@@ -1,9 +1,9 @@
 .header__lang-link {
   width: 30px;
   height: 28px;
-  margin-top: 46px;
-  margin-right: 48px;
+  margin:  0 0 0 18px;
   color: #FFFFFF;
-  margin-left: 18px;
   text-decoration: none;
 }
+
+
