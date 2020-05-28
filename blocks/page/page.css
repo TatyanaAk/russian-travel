@@ -5,6 +5,7 @@
 @import url('../places/places.css');
 @import url('../cover/cover.css');
 @import url('../footer/footer.css');
+@import url('../footer/__links/footer__links.css');
 .page {
   font-family: Inter;
   background-color: #2A2C2F;
