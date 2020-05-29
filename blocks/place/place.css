@@ -4,6 +4,7 @@
 @import url('__paragraph/place__paragraph.css');
 @import url('__link/place__link.css');
 @import url('__website/place__website.css');
+@import url('__title-block/place__title-block.css');
 
 .place {
   display: grid;
