@@ -1,5 +1,6 @@
 .lead__caption {
-  width: 159px;
+
+  width: 100%;
   margin: 0;
   font-style: normal;
   font-weight: normal;
@@ -9,4 +10,5 @@
   text-transform: uppercase;
   color: #FFFFFF;
   margin-top: 8px;
+  padding-bottom: 0.4%;
 }

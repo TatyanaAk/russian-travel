@@ -5,6 +5,7 @@
 
 .lead {
   position: relative;
-  width: 984px;
+  max-width: 77%;
+  width: 100%;
   margin: 56px 148px 0;
 }

@@ -3,6 +3,6 @@
 .places {
   flex-direction: column;
   position: relative;
-  max-width: 984px;
+  max-width: 77%;
   margin: 0 auto 92px;
 }
