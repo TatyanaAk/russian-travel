@@ -18,26 +18,26 @@
   background-position: center;
   text-align: center;
   position: relative;
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
 }
 .cover__overlay {
   position: absolute;
   width: 100%;
   height: 100%;
-  /* opacity: 0.3; */
+  opacity: 0.3;
   margin: 0;
   left: 0;
   top: 0;
   bottom: 0;
   right: 0;
-  /* background-color: #2A2C2F; */
-  background-color: rgba(42, 44, 47, 0.3);
+  background-color: #2A2C2F;
+  /* background-color: rgba(42, 44, 47, 0.3); */
   z-index: 1;
   /* transition: opacity .2s ease; */
 }
 
 .cover__overlay:hover {
-  background-color: rgba(42, 44, 47, 0.8);
+  opacity: 0.8;
 }
 .cover__background {
   margin: 0;
@@ -49,26 +49,29 @@
   /* height: 100vh; */
 }
 .cover__subtitle {
-  max-width: 360px;
-  margin: 32px auto 245px;
+  max-width: 358px;
+  margin: 32px auto 0;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
   color: #FFFFFF;
+  position: relative;
+  z-index: 2;
 }
 .cover__title {
   max-width: 560px;
   font-style: normal;
   font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
+  font-size: 4.5em;
+  line-height: 1.06;
   color: #FFFFFF;
   text-align: center;
-  margin: 245px auto 32px;
+  padding: 245px 0 0;
+  margin: 0 auto;
   text-decoration: none;
-  align-items: center;
+  align-self: center;
   display: block;
   position: relative;
   z-index: 2;
