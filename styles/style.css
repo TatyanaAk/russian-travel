@@ -1,0 +1,76 @@
+
+.page {
+  font-family: Inter;
+  background-color: #2A2C2F;
+  max-width: 1280px;
+  margin: 0 auto;
+
+}
+.red-border {
+  border: 1px solid red; /*если убрать бордеры то все улетает */
+  box-sizing: border-box;
+}
+.cover {
+  max-width: 1184px;
+  margin: 0 auto 92px;
+  height: 740px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  position: relative;
+  background-color: #FFFFFF
+}
+.cover__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* opacity: 0.3; */
+  margin: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  /* background-color: #2A2C2F; */
+  background-color: rgba(42, 44, 47, 0.3);
+  z-index: 1;
+  /* transition: opacity .2s ease; */
+}
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+}
+.cover__background {
+  margin: 0;
+  background-image: url('https://avatars.mds.yandex.net/get-pdb/2796844/33f2cf11-80ef-457e-b30a-cef4aa8350a7/s1200');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* position: relative; */
+  /* height: 100vh; */
+}
+.cover__subtitle {
+  max-width: 360px;
+  margin: 32px auto 245px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.cover__title {
+  max-width: 560px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 245px auto 32px;
+  text-decoration: none;
+  align-items: center;
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+
