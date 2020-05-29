@@ -7,9 +7,9 @@
 
 .place {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(47%, 1fr));
-  row-gap: 40px;
-  column-gap: 48px;
+  grid-template-columns: fit-content(460px) 1fr;
+  row-gap: 48px;
+  column-gap: 40px;
   max-width: 100%;
   width: 100%;
   margin: 0 auto 80px;
