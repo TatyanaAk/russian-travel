@@ -6,7 +6,7 @@
 .cover {
   max-width: 1184px;
   margin: 0 auto 92px;
-  height: 740px;
+  min-height: 740px;
   background-size: cover;
   background-position: center;
   text-align: center;
