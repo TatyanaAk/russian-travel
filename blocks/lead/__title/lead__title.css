@@ -8,3 +8,12 @@
   color: #FFFFFF;
 
 }
+
+
+@media only screen and (max-width: 500px) {
+  .lead__title {
+    font-size: 2.5em;
+    line-height: 1.1;
+    margin: 0 auto 16px;
+ }
+}
