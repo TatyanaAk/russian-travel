@@ -1,9 +1,9 @@
 .place__paragraph {
-  max-width: 484px;
+   max-width: 100%;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 1.13em;
+  line-height: 1.6;
   color: #FFFFFF;
   margin: 0 0 24px 0;
 }

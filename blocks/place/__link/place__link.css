@@ -1,10 +1,10 @@
 .place__link {
-  width: 456px;
-  height: 22px;
+  width: 100%;
+  min-height: 22px;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.13em;
+  line-height: 1.2;
   color: #FFFFFF;
   text-decoration-line: underline;
   transition: opacity .2s ease;
