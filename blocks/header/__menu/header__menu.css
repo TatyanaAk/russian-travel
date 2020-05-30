@@ -1,6 +1,6 @@
 .header__menu {
   max-width: 130px;
-  margin: 46px 0 6px 0;
+  margin: 0;
   flex-direction: row;
   display: flex;
 }
