@@ -1,9 +1,19 @@
 .intro__text {
-  width: 690px;
+  max-width: 690px;
   font-style: normal;
   font-weight: normal;
   font-size: 1em;
-  line-height: 1.63;
+  line-height: 1.62;
   color: #FFFFFF;
   margin: 0;
+}
+@media screen and (max-width: 900px){
+  .intro__text {
+    max-width: 720px;
+ }
+}
+@media only screen and (max-width: 500px) {
+  .intro__text {
+    max-width: 288px;
+ }
 }

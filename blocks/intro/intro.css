@@ -3,9 +3,21 @@
 @import url('__title/intro__title.css');
 
 .intro {
-  /* position: relative; */
   max-width: 1080px;
   margin: 92px auto 0;
   padding: 0 48px;
-  align-content: flex-start;
+}
+@media screen and (max-width: 900px){
+  .intro {
+    margin: 88px auto 0;
+    padding: 0 24px;
+    max-width: 100%;
+ }
+}
+@media only screen and (max-width: 500px) {
+  .intro {
+    max-width: 100%;
+    margin: 64px auto 0;
+    padding: 0 16px;
+ }
 }
