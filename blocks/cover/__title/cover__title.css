@@ -15,3 +15,21 @@
   z-index: 2;
 }
 
+@media screen and (max-width: 1100px){
+  .cover__title {
+    padding: 195px 0 0;
+ }
+}
+@media screen and (max-width: 900px){
+  .cover__title {
+    padding: 115px 0 0;
+ }
+}
+@media only screen and (max-width: 500px) {
+  .cover__title {
+    max-width: 288px;
+    font-size: 2em;
+    line-height: 1.09;
+    padding: 33px 0 0;
+ }
+}
