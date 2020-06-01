@@ -1,5 +1,3 @@
-@import url('../place/place.css');
-
 .places {
   flex-direction: column;
   position: relative;
