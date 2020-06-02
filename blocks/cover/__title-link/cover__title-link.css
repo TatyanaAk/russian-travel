@@ -1,0 +1,35 @@
+.cover__title-link {
+  max-width: 560px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3em;
+  line-height: 1.06;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 245px 0 0;
+  margin: 0 auto;
+  text-decoration: none;
+  display: block;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1100px){
+  .cover__title-link {
+    padding: 195px 0 0;
+ }
+}
+@media screen and (max-width: 900px){
+  .cover__title-link {
+    padding: 115px 0 0;
+ }
+}
+@media only screen and (max-width: 500px) {
+  .cover__title-link {
+    max-width: 288px;
+    font-size: 1.33em;
+    line-height: 1.09;
+    padding: 33px 0 0;
+ }
+}
+
+
