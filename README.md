@@ -1,5 +1,7 @@
 # Проект 3: Путешествие по России
 
+[Ссылка на github pages](https://tatyanaak.github.io/russian-travel/)
+
 ### Обзор
 * Интро
 * Figma
