@@ -3,17 +3,17 @@
   position: relative;
   max-width: 984px;
   padding: 0 48px;
-  margin: 0 auto 92px;
+  margin: 92px auto;
 }
 @media screen and (max-width: 900px){
   .places {
     padding: 0 24px;
-    margin: 0 auto 88px;
+    margin: 88px auto;
  }
 }
 @media only screen and (max-width: 500px) {
   .places {
     padding: 0;
-    margin: 0 auto 97px;
+    margin: 64px auto;
  }
 }
