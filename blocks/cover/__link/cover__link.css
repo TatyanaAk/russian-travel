@@ -4,20 +4,30 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 245px 0 0;
+  padding: 245px 0;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
 }
-@media screen and (max-width: 1100px){
+.cover__link:hover .cover__overlay {
+  -webkit-opacity: 0.3;
+  -moz-opacity: 0.3;
+  -ms-opacity: 0.3;
+  opacity: 0.3;
+}
+
+ @media screen and (max-width: 1100px){
   .cover__link {
-    padding: 195px 0 0;
+    padding: 195px 0;
  }
 }
 @media screen and (max-width: 900px){
   .cover__link {
-    padding: 115px 0 0;
+    padding: 115px 0;
  }
 }
 @media only screen and (max-width: 500px) {
   .cover__link {
-    padding: 33px 0 0;
+    padding: 33px 0;
  }
 }

@@ -6,7 +6,6 @@
   font-size: 1.13em;
   line-height: 1.22;
   color: #FFFFFF;
-  z-index: 2;
 }
 @media only screen and (max-width: 500px) {
   .cover__subtitle {
